@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
-use App\Http\Requests\RoleRequest;
+use App\Http\Requests\Api\RoleRequest;
 
 class RolesController extends Controller
 {

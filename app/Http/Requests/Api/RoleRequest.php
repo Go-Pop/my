@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Api;
 
-use App\Http\Requests\BaseRequest;
+use App\Http\Requests\Api\BaseRequest;
 
 class RoleRequest extends BaseRequest
 {

@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Permission as SysPermission;
 use Spatie\Permission\Models\Permission;
 use Illuminate\Http\Request;
-use App\Http\Requests\PermissionRequest;
+use App\Http\Requests\Api\PermissionRequest;
 
 class PermissionsController extends Controller
 {
