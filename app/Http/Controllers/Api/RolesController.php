@@ -21,8 +21,8 @@ class RolesController extends Controller
 
     //新建角色
     public function store(RoleRequest $request, Role $role){
-        $validated = $request->validated();
         $role->fill($request->all());
+        $role->guard_name = 'api';
         $role->save();
     }
 
